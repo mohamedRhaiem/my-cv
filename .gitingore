@@ -1,6 +1,7 @@
 
 # Eclipse directory setting file
 .project
+.setting
 
 # Bower components directory
 bower_components/
