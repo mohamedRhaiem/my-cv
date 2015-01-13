@@ -1,0 +1,9 @@
+
+# Eclipse directory setting file
+.project
+
+# Bower components directory
+/bower_components/
+
+#Image directory
+/images/
