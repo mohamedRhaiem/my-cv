@@ -114,31 +114,3 @@ h4, h5 {
         display: inline-block;
     }
 }
-
-.entry-video {
-display: inline-block;
-vertical-align: text-top;
-white-space: normal;
-width: 430px;
-height: 400px;
-margin: 0px 20px 0px 10px;
-padding: 0px 0px 0px 0px;
-background-image: url(../images/bg-video.png);
-background-repeat: no-repeat;
-background-position: left top;
-background-position: 0px 15px;
-}
-.entry-video h2 {
-padding-left: 20px;
-}
-.entry-video .entry-text {
-margin-top: 50px;
-text-align: center;
-}
-.entry-vid {
-display: block;
-margin: 20px 0px 0px 70px;
-width: 280px;
-height: 200px;
-background-color: #000;
-}
