@@ -16,6 +16,8 @@
     "dependencies": {
         "angular": "1.3.0-build.2918+sha.a2c7cf9",
         "bootstrap": "3.2.0",
-        "angular-route": "1.3.0-build.2918+sha.a2c7cf9"
+        "angular-route": "1.3.0-build.2918+sha.a2c7cf9",
+        "html2canvas": "0.4.1-build.2918+sha.a2c7cf9",
+        "jspdf": "1.0.272-build.2918+sha.a2c7cf9"
     }
 }

@@ -1,7 +1,3 @@
-/**
- * Created by nick on 6/22/14.
- */
-
 console.log('Loading controllers.js');
 
 var resumeControllers = angular.module('resumeControllers', []);
