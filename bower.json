@@ -1,8 +1,8 @@
 {
-    "name": "Resume",
+    "name": "my-cv",
     "version": "0.0.0",
     "authors": [
-        "Nicholas Istre <nickistre@gmail.com>"
+        "Mohamed Ben Rhaiem <mohamed.benrhaiem@esprit.tn>"
     ],
     "license": "MIT",
     "private": true,
