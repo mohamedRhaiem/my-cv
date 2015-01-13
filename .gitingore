@@ -3,7 +3,7 @@
 .project
 
 # Bower components directory
-/bower_components/
+bower_components/
 
 #Image directory
-/images/
+images/
