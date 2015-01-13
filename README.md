@@ -3,7 +3,7 @@
 This project is a sample resume that try out AngularJS and Bootsrap,using PDFJS with canvas2html to be able to download the webpage as pdf,all the data is stored in the data.json file.
 Designed and printing tested in Firefox aurora and Chromium 34. 
 
-    Getting Started:
+    Getting Started
 
 you will need to install nodejs to be able to download the Js and css packages with Bower manager package;
 
