@@ -1,10 +1,11 @@
-
 # Eclipse directory setting file
 .project
 .setting
+WebContent/
 
 # Bower components directory
 bower_components/
 
-#Image directory
+# Images directory
 images/
+
