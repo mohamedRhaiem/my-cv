@@ -4,8 +4,8 @@
 WebContent/
 
 # Bower components directory
-webapp/app/bower_components/
+Webdir/app/bower_components/
 
 # Images directory
-webapp/app/images/
+Webdir/app/images/
 
