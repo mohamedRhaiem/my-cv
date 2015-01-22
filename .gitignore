@@ -1,6 +1,6 @@
 # Eclipse directory setting file
 .project
-.setting
+.settings
 WebContent/
 
 # Bower components directory
