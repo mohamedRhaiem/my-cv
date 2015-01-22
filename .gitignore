@@ -1,0 +1,11 @@
+# Eclipse directory setting file
+.project
+.setting
+WebContent/
+
+# Bower components directory
+webapp/app/bower_components/
+
+# Images directory
+webapp/app/images/
+
