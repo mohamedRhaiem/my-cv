@@ -9,7 +9,7 @@
 
     <!-- Default styles from Bootstrap -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="all">
-    
+    <!-- fonawesome and open sans family-font -->
     <link href="bower_components/font-awesome/css/font-awesome.css" rel="stylesheet" media="all">
     <link href="bower_components/open-sans-fontface/open-sans.css" rel="stylesheet" media="all">
 
@@ -24,19 +24,15 @@
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/ngstorage/ngStorage.js"></script>
-    
-     <!-- JSPDF and html2canvas to generate pdf -->
-	 <script src="bower_components/jspdf/dist/jspdf.min.js"></script>
-	 <script src="bower_components/htmlcanvas/html2canvas.js"></script>
 
     <!-- App-specific javascript code -->
     <script src="js/app.js"></script>
     <script src="js/controllers.js"></script>
-    <script src="js/pdfservice.js"></script>
 </head>
 <body id="target">
 
 <div ng-view></div>
-<button class="btn btn-custom btn-sm" id="cmd"><span class="glyphicon glyphicon-floppy-save"></span> Save me as pdf</button>
+<!-- use of freindlyPdf service with a custom css -->
+<script>var pfHeaderImgUrl = '';var pfHeaderTagline = '';var pfdisableClickToDel = 0;var pfHideImages = 0;var pfImageDisplayStyle = 'right';var pfDisablePDF = 0;var pfDisableEmail = 0;var pfDisablePrint = 0;var pfCustomCSS = '/css/style.print.css';var pfBtVersion='1';(function(){var js, pf;pf = document.createElement('script');pf.type = 'text/javascript';if('https:' == document.location.protocol){js='https://pf-cdn.printfriendly.com/ssl/main.js'}else{js='http://cdn.printfriendly.com/printfriendly.js'}pf.src=js;document.getElementsByTagName('head')[0].appendChild(pf)})();</script><a href="http://www.printfriendly.com" style="color:#6D9F00;text-decoration:none;" class="printfriendly" onclick="window.print();return false;" title="Printer Friendly and PDF"><img style="border:none;-webkit-box-shadow:none;box-shadow:none;" src="http://cdn.printfriendly.com/pf-button.gif" alt="Print Friendly and PDF"/></a>
 </body>
 </html>
