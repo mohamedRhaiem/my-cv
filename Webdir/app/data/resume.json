@@ -6,20 +6,21 @@
         "source_url_text": "GitHub"
     },
     "personal": {
-        "name": "Nicholas Istre",
+        "name": "Ben Rhaiem Mohamed",
         "address": {
             "address": [
-                "321 Gerald Dr."
+                "Avenida prestes maia."
                 ],
-            "city": "Lafayette",
-            "state": "LA",
-            "postal": "70503",
-            "country": "USA"
+            "city": "São Paulo.",
+            "state": "SP",
+            "postal": "01031-001",
+            "country": "Brasil"
         },
         "contacts": [
-            "262-204-7873",
-            "nickistre@gmail.com",
-            "jobs@nickistre.net"
+            "55 (11)99238-3612",
+            "55 (11)3227-3656",
+            "mohamed.benrhaiem@esprit.tn",
+            "mohamed.rhaiem@gmail.com"
         ]
     },
 
@@ -30,16 +31,15 @@
             "domain": "Programming Languages",
             "skills": [
                 {
-                    "skill": "PHP",
+                    "skill": "JAVA",
                     "subskills": [
-                        "Zend Framework 1",
-                        "Doctrine 2",
-                        "Drupal",
-                        "Wordpress",
-                        "Joomla",
-                        "AMFPHP",
-                        "Horde",
-                        "JSON and SOAP Web Services"
+                        "J2EE",
+                        "JSE",
+                        "Spring framework",
+                        "Spring security",
+                        "JSF/EJB/JPA",
+                        "GWT",
+                        "REST and SOAP Web Services"
                     ]
                 },
                 {
@@ -47,33 +47,25 @@
                     "subskills": [
                         "jQuery",
                         "jQuery UI",
-                        "DataTables",
-                        "Sencha Touch",
-                        "PhoneGap/Cordova",
+                        "AngularJS",
+                        "Titanium/Ionic",
                         "Bootstrap"
                     ]
                 },
                 {
-                    "skill": "Python"
-                },
-                {
-                    "skill": "BASH"
-                },
-                {
-                    "skill": "C/C++",
-                    "subskills": [
-                        "Arduino"
+                    "skill": "Python",
+                     "subskills": [
+                        "Django",
+                        "GO",
+                        "Django Rest Framework"
                     ]
                 },
-                {
-                    "skill": "ActionScript",
-                    "subskills": [
-                        "Flash/Flex",
-                        "Air Mobile"
+                 {
+                    "skill": "PHP",
+                     "subskills": [
+                        "Wordpress",
+                        "codeigniter"
                     ]
-                },
-                {
-                    "skill": "Visual Basic"
                 }
             ]
         },
@@ -81,19 +73,22 @@
             "domain": "Version Control",
             "skills": [
                 {
-                    "skill": "Mercurial"
-                },
-                {
                     "skill": "Git"
                 },
                 {
-                    "skill": "Subversion"
+                    "skill": "SVN"
                 }
             ]
         },
         {
             "domain": "Databases",
             "skills": [
+                {
+                    "skill": "Oracle"
+                },
+                {
+                    "skill": "MongoDB"
+                },
                 {
                     "skill": "PostgreSQL"
                 },
@@ -102,9 +97,6 @@
                 },
                 {
                     "skill": "SQL Server"
-                },
-                {
-                    "skill": "Pervasive.SQL"
                 }
             ]
         },
@@ -126,19 +118,16 @@
             "domain": "Cloud Services & Virtualization",
             "skills": [
                 {
-                    "skill": "Amazon AWS"
+                    "skill": "Google app engine"
                 },
                 {
-                    "skill": "VirtualBox",
-                    "subskills": [
-                        "Vagrant"
-                    ]
+                    "skill": "CloudFoundry"
                 },
                 {
                     "skill": "VMWare"
                 },
                 {
-                    "skill": "Docker"
+                    "skill": "VirtualBox"
                 }
             ]
         },
@@ -146,26 +135,33 @@
             "domain": "Other Technologies",
             "skills": [
                 {
-                    "skill": "Apache",
+                    "skill": "Server",
                     "subskills": [
-                        "VirtualHosts",
-                        "SSL"
+                        "Apache",
+                        "Tomcat",
+                        "JBoss",
+                        "Lamp"
+                    ]
+                },
+                {
+                    "skill": "Package manager",
+                    "subskills": [
+                        "maven",
+                        "bower"
                     ]
                 },
                 {
                     "skill": "Email Servers",
                     "subskills": [
                         "Postfix",
-                        "Exim"
+                        "DoveCot"
                     ]
                 },
                 {
-                    "skill": "Server Management",
+                    "skill": "Data type",
                     "subskills": [
-                        "cPanel",
-                        "zPanel",
-                        "Webmin",
-                        "ISPConfig"
+                        "JSON",
+                        "XML"
                     ]
                 },
                 {
@@ -175,7 +171,7 @@
                     ]
                 },
                 {
-                    "skill": "CloudFlare"
+                    "skill": "Nagios"
                 },
                 {
                     "skill": "Samba"
@@ -187,11 +183,24 @@
                     "skill": "OpenVPN"
                 },
                 {
-                    "skill": "rsync"
+                    "skill": "Ossim"
                 },
                 {
                     "skill": "wget"
+                },
+                {
+                    "skill": "Modeling languages",
+                    "subskills": [
+                        "UML"
+                    ]
+                },
+                 {
+                    "skill": "Work methodology",
+                    "subskills": [
+                        "SCRUM"
+                    ]
                 }
+                
             ]
         }
     ],
@@ -199,24 +208,20 @@
     "code_samples": [
         {
             "name": "GitHub",
-            "url": "https://github.com/nickistre"
-        },
-        {
-            "name": "Bitbucket",
-            "url": "https://bitbucket.org/nickistre"
+            "url": "https://github.com/mohamedRhaiem"
         }
     ],
 
     "work_experiences": [
         {
-            "company": "Comit Developers & ACA Ventures",
-            "position": "Senior Engineer & Senior Developer",
-            "location": "Lafayette, LA",
+            "company": "ÉNOIS Inteligência Jovem",
+            "position": "Software Developer/Web Integrator",
+            "location": "Sao Paulo, Brazil",
             "dates": {
-                "start": "July 2014",
-                "end": "October 2014"
+                "start": "02/14",
+                "end": "08/14"
             },
-            "description": "Building PHP cluster server system, create deployment code and processes, maintaining legacy systems, assisting and instructing other developers on current projects, and reorganizing and documenting of new and existing servers",
+            "description": "Customization of an already open source E-learning platform programmed in Django and AngularJS for journalism teaching use.",
             "accomplishments": [
                 "Built and maintained a PHP 5.5 cluster system using Zend Server 7.0, NFS server, and MySQL on Amazon AWS cloud services. Created scripts to help with deploying code (specifically, Wordpress and Magento-based sites) to the cloud system. Setup scripts to help with initializing, adding and removing nodes for cluster system",
                 "Transferred and maintained a Wordpress multi-site system containing the company's and several clients' websites onto the cluster system",
@@ -224,14 +229,14 @@
             ]
         },
         {
-            "company": "Teamwork Solutions Group",
-            "position": "Vice President of Interactive",
-            "location": "Lafayette, LA",
+            "company": "ESPRIT group",
+            "position": "Software Developer /Software Architect/DBA",
+            "location": "Chargia, Tunisia",
             "dates": {
-                "start": "March 2009",
-                "end": "July 2014"
+                "start": "03/13",
+                "end": "05/13"
             },
-            "description": "Built systems for clients mainly using PHP, JavaScript, and Actionscript for web, desktop, and mobile applications. Common technologies used were Joomla for CMS-based websites, Sencha Touch for mobile web apps, and PhoneGap/Cordova. Joomla-based projects often used the Fabrik component and jQuery and Bootstrap for customizations.",
+            "description": "Designed and implemented of banking solution based on a multi-platform architecture programmed in JAVA, JEE 6 EJB/JSF and Windows phone.",
             "accomplishments": [
                 "Building a system for use in evaluating nursing students, built in PHP using Zend Framework 1, Doctrine 2, and  jQuery for the website, and an Android tablet application written in Adobe Air and deployed using Adobe Air Mobile runtime.",
                 "Finished a job-posting application using Adobe Flash for the web-accessible front end and AMFPHP for the backend.",
@@ -242,14 +247,14 @@
             ]
         },
         {
-            "company": "Rader Solutions",
-            "position": "Lead Web Developer",
-            "location": "Lafayette, LA",
+            "company": "Focus software outsourcing services",
+            "position": "Software Developer",
+            "location": "Ariana, Tunisia",
             "dates": {
-                "start": "December 2006",
-                "end"  : "December 2008"
+                "start": "07/12",
+                "end"  : "09/12"
             },
-            "description": "Duties mainly involved maintaining and extending a custom-built PHP website that provided accounting, ordering, and invoicing service for a large construction supply company, which also included the administration of the PostgreSQL database and CentOS systems powering the site.",
+            "description": "Development of an Application of human resource management (FHRM), it’s a web application developed with spring framework and mongodb as a database.",
             "accomplishments": [
                 "Moved the codebase into a Subversion repository for better code maintenance.",
                 "Improved security and reusability of project parts.",
@@ -258,61 +263,57 @@
                 "Optimized the data transfer code between the project and an accounting system running on an IBM AIX server.",
                 "Converted the project from PHP on a CentOS server with PostgresSQL to PHP running on a Windows Server with SQL Server 2005."
             ]
-        },
-        {
-            "company": "Service Tool Company, LLC",
-            "position": "System Analyst",
-            "location": "New Iberia, LA",
-            "dates": {
-                "start": "May 2001",
-                "end"  : "December 2006"
-            },
-            "description": "Administrated a Windows-based network for an office of 50 employees. This included maintaining, upgrading, and building software applications for use by internal users and to facilitate communications with customers and vendors, encouraging and implementing user and internet security, and building queries and reports to provide critical information to the executive and sales staff.",
-            "accomplishments": [
-                "Moved the company’s primary database storage from Access 2000 to SQL Server.",
-                "Migrated the primary accounting and sales processing software from Great Plains Account (DOS-based) to Great Plains Dynamics 6.0 (Windows-based).",
-                "Developed an application that provided a way for internal processors to access faxes from remote sales staff in a paperless format.",
-                "Implemented and maintained an EDI system.",
-                "Utilized VMWare server to massively reduce the amount of time and money spent on physical servers for testing and deployment of various systems."
-            ]
         }
     ],
 
     "education": [
         {
-            "school": "University of Louisiana at Lafayette",
-            "degree": "Bachelors of Science in Computer Science",
+            "school": "Private Higher School of Engineering and Technology (ESPRIT)",
+            "degree": "National diploma in Software Computer Science Engineering (DNI)",
             "dates": {
-                "start": "1997",
-                "end"  : "2001"
-            },
-            "description": "Graduated Magna Cum Laude with a 3.85 GPA. Member of the Honors Society and served as President of the Inline Hockey Club"
+                "start": "2011",
+                "end"  : "2014"
+            }
+            
+        },
+          {
+            "school": "Higher Faculty of Sciences of Tunis (FST)",
+            "degree": "National Bachelor in Telecommunication and Computer (BTC)",
+            "dates": {
+                "start": "2007",
+                "end"  : "2011"
+            }
+           
         }
     ],
 
-    "awards": [
+    "languages": [
         {
-            "title": "Grand Prize Winning Team",
-            "issuer": "CajunCodeFest 3.0",
-            "date":  "April 2014",
-            "description": "The theme of the competition was \"Aging in Place\", and my team's winning solution was custom built hardware and software that would help elderly people live at home safely through the collection and communication of a person’s medical, social and environmental status. We had beat out 11 other teams (of up to 6 members) in the 28 hour competition to win the $10,000 prize. My main part in the project was to build a custom interfacing system using Arduino and radio receiving hardware and python running on an internet-connected computer to queue and transmit data from remote sensor units to a Joomla-based web application system."
+            "language": "English",
+            "level": "good"
+        },
+         {
+            "language": "French",
+            "level": "good"
+        },
+         {
+            "language": "Portuguese",
+            "level": "basic"
+        },
+         {
+            "language": "Arab",
+            "level": "mother tongue"
         }
     ],
 
     "organizations": [
         {
-            "position": "Organizer",
-            "organization": "Acadiana Open Source Group",
+            "position": "Trainee",
+            "organization": "Edge talents",
             "dates": {
-                "start": "May 2014",
-                "end"  : "Present"
+                "start": "02/2014",
+                "end"  : "08/2014"
             }
         }
-    ],
-      
-    "value": {
-           "like" : "0", 
-           "unlike" : "0"
-          }   
-     
+    ]
 }
