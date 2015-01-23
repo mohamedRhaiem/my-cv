@@ -309,12 +309,10 @@
             }
         }
     ],
-    
-    "video": [
-         {
-           "title" : "Video 00", 
-           "data" : "http://player.vimeo.com/video/37176398"
-          
-          }
-     ]     
+      
+    "value": {
+           "like" : "0", 
+           "unlike" : "0"
+          }   
+     
 }

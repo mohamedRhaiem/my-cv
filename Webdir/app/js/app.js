@@ -2,6 +2,7 @@ console.log('Loading app.js');
 
 var resumeApp = angular.module('resumeApp', [
     'ngRoute',
+    'ngStorage',
     'resumeControllers'
 ]);
 

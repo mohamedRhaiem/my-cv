@@ -5,23 +5,26 @@ api_version: go1
 
 handlers:
 - url: /
-  static_files: webapp/app/index.html
-  upload: webapp/app/(.*\.html)
+  static_files: Webdir/app/index.html
+  upload: Webdir/app/(.*\.html)
   
 - url: /partials
-  static_dir: webapp/app/partials
+  static_dir: Webdir/app/partials
   
 - url: /data
-  static_dir: webapp/app/data
+  static_dir: Webdir/app/data
   
 - url: /css
-  static_dir: webapp/app/css
+  static_dir: Webdir/app/css
+ 
+- url: /images
+  static_dir: Webdir/app/images
  
 - url: /js
-  static_dir: webapp/app/js
+  static_dir: Webdir/app/js
  
 - url: /bower_components
-  static_dir: webapp/app/bower_components
+  static_dir: Webdir/app/bower_components
  
  
 - url: /.*

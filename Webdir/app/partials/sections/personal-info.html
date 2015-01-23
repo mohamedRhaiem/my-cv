@@ -1,22 +1,46 @@
-<div class="name text-left col-sm-12 col-print-12 text-center">{{resume.personal.name}}</div>
-
-<div id="address" class="col-sm-12 col-print-12 text-center">
-    <div class="address">
-            <span class="address-line" ng-repeat="address in resume.personal.address.address">
-                {{address}} •
-            </span>
-        {{resume.personal.address.city}} •
-        {{resume.personal.address.state}} •
-        {{resume.personal.address.postal}} •
-        {{resume.personal.address.country}}
+<!-- Start your code here -->
+<div class="panel panel-default page-presentation">
+  <div class="panel-body">
+    <div class="rsvp col-xs-2 col-sm-2">
+      <i>{{$storage.like}}</i>
+      <i>{{$storage.unlike}}</i>
+      <div class="hidden-xs">
+        <span class="fa fa-thumbs-up fa-2x" ng-click="$storage.like = $storage.like + 1"></span>
+        <span class="fa fa-thumbs-down fa-2x" ng-click="$storage.unlike = $storage.unlike - 1"></span>
+      </div>
     </div>
+    <div class="info col-xs-8 col-sm-7">
+      Event Title
+      <div class="visible-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elitero..</div>
+      <div class="hidden-xs">
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#location" aria-controls="location" role="tab" data-toggle="tab">Location</a></li>
+            <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+          </ul>
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="location">Location</div>
+            <div role="tabpanel" class="tab-pane" id="profile">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis feugiat sem, eu sagittis libero. Duis non odio ut nibh volutpat tempus eget interdum elit. 
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="author col-xs-2 col-sm-3">
+        <div class="profile-image">
+            <img src="images/my-pic.jpg"/>
+        </div>
+        <div class="profile hidden-xs">
+            <strong>{{resume.personal.name}}</strong>
+            <article>Event leader and founder of this group</article>
+            <div class="links hidden-sm">
+              <i class="fa fa-github-square fa-2x col-xs-3"></i>
+              <i class="fa fa-google-plus-square fa-2x col-xs-3"></i>
+              <i class="fa fa-facebook-square fa-2x col-xs-3"></i>
+              <i class="fa fa-linkedin-square  fa-2x col-xs-3"></i>
+            </div>
+        </div>
+        
+    </div>
+  </div>
 </div>
-
-<div id="contacts" class="col-sm-12 col-print-12 text-center">
-        <span ng-repeat="contact in resume.personal.contacts" class="contact">
-            <span ng-if="!$first"> • </span>
-            {{contact}}
-        </span>
-</div>
-
-<div class="clearfix"></div>
