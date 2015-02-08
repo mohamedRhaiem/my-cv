@@ -24,8 +24,15 @@
         ]
     },
 
-    "summary": "I am a programmer with a wide breadth of experience in server, network, and database administration. I look forward to learning and working with new technology to help customers to meet and exceed their needs.",
-
+    "presentation": "I am a programmer with a wide breadth of experience in server, network, and database administration. I look forward to learning and working with new technology to help customers to meet and exceed their needs.",
+    "about": [
+       {
+          "summary":"A versatile and professional software newly graduate with a commitment to many experience of developing innovative and creative software solutions during the education cycle."},
+          {
+          "summary":"An excellent problem-solver, able to quickly grasp complex systems and identify opportunities for improvements and resolution of critical issues."},
+          {
+          "summary":"A dynamic member, skilled in software methodologies development, enlisting the support of all team members in aligning with timeline and goals project."}
+    ],
     "skills": [
         {
             "domain": "Programming Languages",
@@ -205,12 +212,16 @@
         }
     ],
 
-    "code_samples": [
+    "social_links": 
         {
-            "name": "GitHub",
-            "url": "https://github.com/mohamedRhaiem"
-        }
-    ],
+            "GitHub": "https://github.com/mohamedRhaiem/",
+      
+            "Google": "https://plus.google.com/+BenRhaiemMohamed/",
+       
+            "Facebook": "https://www.facebook.com/Ben.rhim.med/",
+       
+            "Linkedin": "https://www.linkedin.com/pub/mohamed-ben-rhaiem/51/121/670/"
+        },
 
     "work_experiences": [
         {
@@ -223,9 +234,9 @@
             },
             "description": "Customization of an already open source E-learning platform programmed in Django and AngularJS for journalism teaching use.",
             "accomplishments": [
-                "Built and maintained a PHP 5.5 cluster system using Zend Server 7.0, NFS server, and MySQL on Amazon AWS cloud services. Created scripts to help with deploying code (specifically, Wordpress and Magento-based sites) to the cloud system. Setup scripts to help with initializing, adding and removing nodes for cluster system",
-                "Transferred and maintained a Wordpress multi-site system containing the company's and several clients' websites onto the cluster system",
-                "Assisted with performance and other improvements to existing sites for SEO purposes, such as setting up SSL and using CloudFlare to improve response times"
+                "Cutomise an already Django App to reply to journalism concept,in the look and the behaviour ",
+                "Building a shared environment for Students to share their work and to be able to exchange knowledge’s and ideas between all the students. ",
+                "implementation of a Django app that make a dynamic update for our data displayed for more flexibility in the template design.   "
             ]
         },
         {
@@ -238,12 +249,8 @@
             },
             "description": "Designed and implemented of banking solution based on a multi-platform architecture programmed in JAVA, JEE 6 EJB/JSF and Windows phone.",
             "accomplishments": [
-                "Building a system for use in evaluating nursing students, built in PHP using Zend Framework 1, Doctrine 2, and  jQuery for the website, and an Android tablet application written in Adobe Air and deployed using Adobe Air Mobile runtime.",
-                "Finished a job-posting application using Adobe Flash for the web-accessible front end and AMFPHP for the backend.",
-                "Updating a custom-built ad-delivery system, using Adobe Flex & AMFPHP, that allowed clients to submit video and image ads that ran on screens in various local businesses.",
-                "Heavily modified the above ad-delivery system for custom-built touchscreen headrests running Ubuntu that were to be place in taxis. Included setting up remote auto upgrading capabilities, stats and network tracking using BASH, Python, and C, and setting up OpenVPN and OpenSSH to allow for secure access to the headrests while the taxis they were in were driving around town.",
-                "Pushed for the switch from Subversion to Mercurial as the company's version control system, trained and encouraged others in using the git flow model for development with larger projects.",
-                "Trained and managed local and remote programmers to accelerate project development."
+                "Building a Bank system for solving financial Applications of a customer in banking environment",
+                "nurture the Needs of a banking user by proving various ways to perform banking tasks with a high security system."
             ]
         },
         {
@@ -256,12 +263,8 @@
             },
             "description": "Development of an Application of human resource management (FHRM), it’s a web application developed with spring framework and mongodb as a database.",
             "accomplishments": [
-                "Moved the codebase into a Subversion repository for better code maintenance.",
-                "Improved security and reusability of project parts.",
-                "Headed a team of five developers to expand the project.",
-                "Added a user authentication and security model using an LDAP connection to Windows 2003 Server Active Directory.",
-                "Optimized the data transfer code between the project and an accounting system running on an IBM AIX server.",
-                "Converted the project from PHP on a CentOS server with PostgresSQL to PHP running on a Windows Server with SQL Server 2005."
+                "provide a solution to human resources management.",
+                "ensure a high level of data availability with fast response and high security."
             ]
         }
     ],
