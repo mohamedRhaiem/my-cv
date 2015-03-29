@@ -3,6 +3,10 @@
 This project is a GO app that is deployed in google cloud,the idea is to create a sample resume with AngularJS and Bootsrap,using angularlike for social share  and Freindlypdf to be able to download the webpage as pdf,all the data is stored in the data.json file.
 Designed and tested in Firefox aurora and google Chrome. 
 
+# Demo
+
+The demo is available on http://glass-setting-831.appspot.com/#/default
+
     Getting Started
   
         Deploy to app engine: 
