@@ -7,11 +7,7 @@ resumeControllers.controller('bodyCtrl', function ($scope, $http,$localStorage,$
         $scope.resume = data;
     });
 
-    $scope.myModel = {
-            Name: "Mohamed Ben Rhaiem Resume",
-            ImageUrl: 'http://glass-setting-831.appspot.com/images/my-pic.jpg',
-            FbLikeUrl: 'http://glass-setting-831.appspot.com'
-        };
+   
 });
 
 
@@ -21,5 +17,9 @@ resumeControllers.controller('headerCtrl', function ($scope, $http) {
         $scope.name = data.personal.name;
        
     });
-   
+    $scope.myModel = {
+            Name: "Mohamed Ben Rhaiem Resume",
+            ImageUrl: 'http://glass-setting-831.appspot.com/images/my-pic.jpg',
+            FbLikeUrl: 'http://glass-setting-831.appspot.com'
+        };
 });
