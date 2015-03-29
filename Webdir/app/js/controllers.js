@@ -10,7 +10,7 @@ resumeControllers.controller('bodyCtrl', function ($scope, $http,$localStorage,$
     $scope.myModel = {
             Name: "Mohamed Ben Rhaiem Resume",
             ImageUrl: 'http://glass-setting-831.appspot.com/images/my-pic.jpg',
-            FbLikeUrl: 'http://glass-setting-831.appspot.com/#/default'
+            FbLikeUrl: 'http://glass-setting-831.appspot.com'
         };
 });
 
