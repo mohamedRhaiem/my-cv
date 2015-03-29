@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="resumeApp">
+<head ng-controller="headerCtrl">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title ng-bind-template="Résumé/CV - {{name}}">CV - Loading...</title>
+
+    <!-- Default styles from Bootstrap -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="all">
+
+    <!-- App-specific style customizations -->
+    <link href="css/style.css" rel="stylesheet" media="all">
+
+    <!-- jQuery and Bootstrap -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Angular JS, main and components -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    
+     <!-- JSPDF and html2canvas to generate pdf -->
+	 <script src="bower_components/jspdf/dist/jspdf.min.js"></script>
+	 <script src="bower_components/html2canvas/build/html2canvas.min.js"></script>
+
+    <!-- App-specific javascript code -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/pdfservice.js"></script>
+</head>
+<body id="target">
+
+<div ng-view></div>
+<button id="cmd">generate PDF</button>
+</body>
+</html>

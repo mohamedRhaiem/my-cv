@@ -1,5 +1,6 @@
 # Eclipse directory setting file
 .project
+<<<<<<< HEAD
 .settings
 WebContent/
 
@@ -8,4 +9,14 @@ Webdir/app/bower_components/
 
 # Images directory
 Webdir/app/images/
+=======
+.setting
+WebContent/
+
+# Bower components directory
+bower_components/
+
+# Images directory
+images/
+>>>>>>> origin/master
 
