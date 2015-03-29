@@ -7,13 +7,14 @@ resumeControllers.controller('bodyCtrl', function ($scope, $http,$localStorage,$
         $scope.resume = data;
     });
 
-    $scope.current_date = Date.now();
-    $scope.$storage = $localStorage.$default({
-    	like: 0 ,
-    	unlike: 0 
-      });
-    var myEl = $document.find('#Button');
+    $scope.myModel = {
+            Name: "Mohamed Ben Rhaiem Resume",
+            ImageUrl: 'http://glass-setting-831.appspot.com/images/my-pic.jpg',
+            FbLikeUrl: 'http://glass-setting-831.appspot.com/#/default'
+        };
 });
+
+
 
 resumeControllers.controller('headerCtrl', function ($scope, $http) {
     $http.get('/data/resume.json').success(function (data) {
