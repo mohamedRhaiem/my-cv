@@ -1,7 +1,7 @@
 # my-cv
 
-This project is a sample resume that try out AngularJS and Bootsrap,using PDFJS with canvas2html to be able to download the webpage as pdf,all the data is stored in the data.json file.
-Designed and printing tested in Firefox aurora and Chromium 34. 
+This project is a sample resume that try out AngularJS and Bootsrap,using angularlike for the social share and  FreindlyPdf to be able to download the webpage as pdf,all the data is stored in the data.json file.
+Designed and tested in Firefox aurora and Chromium 34. 
 
     Getting Started
 
