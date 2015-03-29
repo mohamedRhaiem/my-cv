@@ -3,8 +3,14 @@ console.log('Loading app.js');
 var resumeApp = angular.module('resumeApp', [
     'ngRoute',
     'ngStorage',
-    'resumeControllers'
+    'resumeControllers',
+    'angulike'
 ]);
+
+resumeApp.run(['$rootScope', function($rootScope) {
+                      $rootScope.facebookAppId = '1556599584589460';
+                  }
+              ]);
 
 resumeApp.config(['$routeProvider',
     function ($routeProvider) {

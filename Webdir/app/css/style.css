@@ -1,146 +1,141 @@
 /* changing default bootstrap font */
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-    font-family: 'Open Sans', sans-serif;
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-    font-variant: small-caps;
-    font-size: 30px;
-    font-weight: bold;
-    /* For some reason, I had to add !important for Firefox, else headers show as black */
-    color: #1565C0 !important;
-    margin-top: 0;
+	font-variant: small-caps;
+	font-size: 30px;
+	font-weight: bold;
+	/* For some reason, I had to add !important for Firefox, else headers show as black */
+	color: #1565C0 !important;
+	margin-top: 0;
 }
 
 /* Make sure margins are set for each main secton for both screen and print */
 .section-main {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    clear: both;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	clear: both;
 }
 
 h2, h3 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 h4, h5 {
-    margin-top: 5px;
-    margin-bottom: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 #resume-header {
-    border: 0;
-    padding: 0;
-    border-bottom: #1565C0 solid thick;
-    position: fixed;
-    z-index: 9999;
-    width: 100%;
-    background-color: #ffffff;
-    height: 106px;
-    top: 0;
+	border: 0;
+	padding: 0;
+	border-bottom: #1565C0 solid thick;
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	background-color: #ffffff;
+	height: 106px;
+	top: 0;
 }
 
 #resume-body {
-   /* margin-top: 101px; */
-   margin-top: 140px;
+	/* margin-top: 101px; */
+	margin-top: 140px;
 }
 
 #resume-footer {
-    border-top: #1565C0 solid medium;
-    margin-top: 10px;
-    margin-bottom: 10px;
+	border-top: #1565C0 solid medium;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 #personal-info {
-    padding-bottom: 10px;
+	padding-bottom: 10px;
 }
 
 #personal-info .name {
-    font-size: 36px;
-    font-weight: bold;
+	font-size: 36px;
+	font-weight: bold;
 }
 
-#skills h2,
-#code-samples h2 {
-    font-size: 20px;
-    font-weight: bolder;
-    margin-bottom: 5px;
+#skills h2, #code-samples h2 {
+	font-size: 20px;
+	font-weight: bolder;
+	margin-bottom: 5px;
 }
 
 #skills .domain {
-    padding-left: 10px;
-    clear: both;
-    margin-top: 10px;
+	padding-left: 10px;
+	clear: both;
+	margin-top: 10px;
 }
 
 #skills .skill {
-    padding-left: 10px;
-    margin-bottom: 0;
-    margin-top: 5px;
+	padding-left: 10px;
+	margin-bottom: 0;
+	margin-top: 5px;
 }
 
 #skills h3 {
-    font-size: 16px;
-    margin-top: 0;
-    margin-bottom: 0;
+	font-size: 16px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 #skills .skill ul {
-    list-style-type: none;
-    padding-left: 15px;
-    margin-bottom: 0;
+	list-style-type: none;
+	padding-left: 15px;
+	margin-bottom: 0;
 }
 
 #skills .skill .subskill {
-    font-style: italic;
-    font-size: 12px;
+	font-style: italic;
+	font-size: 12px;
 }
 
 .link {
-    font-weight: bolder;
+	font-weight: bolder;
 }
 
-@media (max-width: 768px) {
-    #resume-header {
-        position: static;
-        height: auto;
-        width: auto;
-    }
-
-    #resume-body {
-        margin-top: 15%;
-    }
-
-    #skills .domain{
-        vertical-align: top;
-    }
-
-    #skills .skill {
-        display: inline-block;
-    }
+@media ( max-width : 768px) {
+	#resume-header {
+		position: static;
+		height: auto;
+		width: auto;
+	}
+	#resume-body {
+		margin-top: 15%;
+	}
+	#skills .domain {
+		vertical-align: top;
+	}
+	#skills .skill {
+		display: inline-block;
+	}
 }
-.btn-custom { background-color: hsl(0, 69%, 22%) !important; background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b42121", endColorstr="#5e1111"); background-image: -khtml-gradient(linear, left top, left bottom, from(#b42121), to(#5e1111)); background-image: -moz-linear-gradient(top, #b42121, #5e1111); background-image: -ms-linear-gradient(top, #b42121, #5e1111); background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b42121), color-stop(100%, #5e1111)); background-image: -webkit-linear-gradient(top, #b42121, #5e1111); background-image: -o-linear-gradient(top, #b42121, #5e1111); background-image: linear-gradient(#b42121, #5e1111); border-color: #5e1111 #5e1111 hsl(0, 69%, 17%); color: #fff !important; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33); -webkit-font-smoothing: antialiased; }
 
-
-
-
-
-
-
-
+.btn-custom {
+	background-color: hsl(0, 69%, 22%) !important;
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b42121",
+		endColorstr="#5e1111");
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#b42121),
+		to(#5e1111));
+	background-image: -moz-linear-gradient(top, #b42121, #5e1111);
+	background-image: -ms-linear-gradient(top, #b42121, #5e1111);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b42121),
+		color-stop(100%, #5e1111));
+	background-image: -webkit-linear-gradient(top, #b42121, #5e1111);
+	background-image: -o-linear-gradient(top, #b42121, #5e1111);
+	background-image: linear-gradient(#b42121, #5e1111);
+	border-color: #5e1111 #5e1111 hsl(0, 69%, 17%);
+	color: #fff !important;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+	-webkit-font-smoothing: antialiased;
+}
 
 /* check  */
 /*background: #BBDEFB;
@@ -148,184 +143,203 @@ h4, h5 {
   padding:0;
   margin:0;
   height:86px; */
- /* height: 158px;
+/* height: 158px;
     position: fixed;
     width: 100%; */
 .page-presentation .panel-body {
- background: none repeat scroll 0 0 #bbdefb;
-    border: 2px solid #448aff;
-    height: 86px;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    width: 100%;
-    z-index: 9999;
-}
-.page-presentation .panel-body > div {
-  padding: 0 10px;
-}
-.page-presentation .panel-body .rsvp {
-  border-left: none;
-  padding: 0;
-  text-align: center;
-  position: relative;
-  background: #64B5F6;
-  color: white;
-  height: 100%;
+	background: none repeat scroll 0 0 #bbdefb;
+	border: 2px solid #448aff;
+	height: 86px;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
-.page-presentation .rsvp > div {
-  font-size: 12px;
-  position: absolute;
-  bottom: 0;
-  background: #42A5F5;
-  width: 100%;
+.page-presentation .panel-body>div {
+	padding: 0 10px;
+}
+
+.page-presentation .panel-body .rsvp {
+	border-left: none;
+	padding: 0;
+	text-align: center;
+	position: relative;
+	background: #64B5F6;
+	color: white;
+	height: 100%;
+}
+
+.page-presentation .rsvp>div {
+	font-size: 12px;
+	position: absolute;
+	bottom: 0;
+	background: #42A5F5;
+	width: 100%;
 }
 
 .page-presentation .rsvp i {
-  font-size: 2em;
-  display: block;
-  position:relative;
-  top:17%;
-  margin-bottom:5px;
+	font-size: 2em;
+	display: block;
+	position: relative;
+	top: 17%;
+	margin-bottom: 5px;
 }
-.page-presentation .rsvp i:last-of-type{
-    font-size:1.5em;
-    margin-top:-23px;
+
+.page-presentation .rsvp i:last-of-type {
+	font-size: 1.5em;
+	margin-top: -23px;
 }
 
 .page-presentation .rsvp span {
-  cursor: pointer;
-  padding: 0 5px;
-  margin: 5px 0;
-  width:45%;
-}
-.page-presentation .rsvp span:first-of-type{
-  border-right: 1px solid white;
-}
-.page-presentation .rsvp span:hover{
-  color: #1565C0;
+	cursor: pointer;
+	padding: 0 5px;
+	margin: 5px 0;
+	width: 45%;
 }
 
-.page-presentation .info{
-  font-size: 28px;
+.page-presentation .rsvp span:first-of-type {
+	border-right: 1px solid white;
 }
 
-.page-presentation .info > div, .page-presentation .info > ul{
-  font-size: 12px;
+.page-presentation .rsvp span:hover {
+	color: #1565C0;
+}
+
+.page-presentation .info {
+	font-size: 28px;
+}
+
+.page-presentation .info>div, .page-presentation .info>ul {
+	font-size: 12px;
 }
 
 .page-presentation .author .profile-image {
-  position: absolute;
-  background: white;
-  padding: 3px;
-  width: 5em;
-  border-radius: 50%;
-  border: 1px solid #CCC;
-  box-sizing: content-box;
-  z-index: 1;
-  top:4px;
+	position: absolute;
+	background: white;
+	padding: 3px;
+	width: 5em;
+	border-radius: 50%;
+	border: 1px solid #CCC;
+	box-sizing: content-box;
+	z-index: 1;
+	top: 4px;
 }
 
 .page-presentation .author img {
-    width:100%;
-    border-radius:50%;
+	width: 100%;
+	border-radius: 50%;
 }
 
 /* Overwrites */
 .nav-tabs a {
-  background: #90CAF9;
-  color: white;
+	background: #90CAF9;
+	color: white;
 }
+
 .info .nav-tabs li.active a {
-  background-color: #448AFF;
-  color: white;
+	background-color: #448AFF;
+	color: white;
 }
+
 .info .nav-tabs li:hover a, .info .nav-tabs li.active:hover a {
-  background: #00BCD4;
-  color: white;
+	background: #00BCD4;
+	color: white;
 }
+
 .tab-content {
-  background: white;
-  border-radius: 0 10px;
-  padding: 10px;
+	background: white;
+	border-radius: 0 10px;
+	padding: 10px;
 }
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    .page-presentation .panel-body {
-        height:158px;
-    }
-    
-    .page-presentation .rsvp {
-        min-height:100%;
-    }
-    
-    .page-presentation .rsvp i {
-        font-size:4em;
-        top:5%;
-    }
-    
-    .page-presentation .panel-body .author {
-      position: relative;
-      color: #2196F3;
-      padding:10px;
-      height:100%;
-    }
-    .page-presentation .profile {
-      position: relative;
-      z-index: 0;
-      border-left: 2px solid white;
-      top: -5px;
-      padding-left: 55px;
-      height: 100%;
-      left: 10%;
-    }
-    .page-presentation .profile strong {
-      display: block;
-      color: white;
-      font:20px bold 'Fredoka One', serif;
-      -webkit-text-stroke-width: .6px;
-      -webkit-text-stroke-color: #448AFF;
-      margin-bottom: 5px;
-    }
-    .page-presentation .author .profile i {
-      color:  #448AFF;
-      padding-left: 0;
-    }
-    .page-presentation .profile .links {
-      position: absolute;
-      bottom: 0;
-    }
-    .page-presentation .profile article {
-        padding:0 41px 0 0;
-    }
-    .page-presentation .author .profile i:hover{
-      color:  #00BCD4;
-    }
-    .page-presentation .author .profile-image {
-      position: absolute;
-      background: white;
-      padding: 3px;
-      width: 30%;
-      border-radius: 50%;
-      border: 1px solid #CCC;
-      box-sizing: content-box;
-      z-index: 1;
-      top:13px;
-    }
-    .page-presentation .author img {
-      width: 100%;
-      border-radius: 50%;
-    }
+@media ( min-width : 768px) {
+	.page-presentation .panel-body {
+		height: 158px;
+	}
+	.page-presentation .rsvp {
+		min-height: 100%;
+	}
+	.page-presentation .rsvp i {
+		font-size: 4em;
+		top: 5%;
+	}
+	.page-presentation .panel-body .author {
+		position: relative;
+		color: #2196F3;
+		padding: 10px;
+		height: 100%;
+	}
+	.page-presentation .profile {
+		position: relative;
+		z-index: 0;
+		border-left: 2px solid white;
+		top: -5px;
+		padding-left: 55px;
+		height: 100%;
+		left: 10%;
+	}
+	.page-presentation .profile strong {
+		display: block;
+		color: white;
+		font: 20px bold 'Fredoka One', serif;
+		-webkit-text-stroke-width: .6px;
+		-webkit-text-stroke-color: #448AFF;
+		margin-bottom: 5px;
+	}
+	.page-presentation .author .profile i {
+		color: #448AFF;
+		padding-left: 0;
+	}
+	.page-presentation .profile .links {
+		position: absolute;
+		bottom: 0;
+	}
+	.page-presentation .profile article {
+		padding: 0 41px 0 0;
+	}
+	.page-presentation .author .profile i:hover {
+		color: #00BCD4;
+	}
+	.page-presentation .author .profile-image {
+		position: absolute;
+		background: white;
+		padding: 3px;
+		width: 30%;
+		border-radius: 50%;
+		border: 1px solid #CCC;
+		box-sizing: content-box;
+		z-index: 1;
+		top: 13px;
+	}
+	.page-presentation .author img {
+		width: 100%;
+		border-radius: 50%;
+	}
 }
 
+.profile hr {
+	width: 40%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.fb-like {
+	left: 30%;
+}
+
+#gp {
+	margin-left: 30%;
+}
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-    .page-presentation .profile {
-      left: 17%;
-    }
+@media ( min-width : 992px) {
+	.page-presentation .profile {
+		left: 17%;
+	}
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
+@media ( min-width : 1200px) {
+}

@@ -224,6 +224,20 @@
         },
 
     "work_experiences": [
+    {
+            "company": "Murah Technologies",
+            "position": "Software Developer",
+            "location": "Sao Paulo, Brazil",
+            "dates": {
+                "start": "01/15",
+                "end": "actual"
+            },
+            "description": "make support for an Audit platform for company clients. ",
+            "accomplishments": [
+                "resolve issues and conflicts in the client side of the platform . ",
+                "add statistics features to the program of work involved in the auditor system . "
+            ]
+        },
         {
             "company": "ÉNOIS Inteligência Jovem",
             "position": "Software Developer/Web Integrator",
