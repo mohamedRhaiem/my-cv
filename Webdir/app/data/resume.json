@@ -1,7 +1,7 @@
 {
     "general": {
-        "url": "http://resume.nickistre.net",
-        "url_text": "http://resume.nickistre.net",
+        "url": "http://glass-setting-831.appspot.com/#/default",
+        "url_text": "http://glass-setting-831.appspot.com/#/default",
         "source_url": "https://github.com/mohamedRhaiem/my-cv",
         "source_url_text": "GitHub"
     },
@@ -9,25 +9,23 @@
         "name": "Ben Rhaiem Mohamed",
         "address": {
             "address": [
-                "Avenida prestes maia."
+                "Alameda dos aicas,1028,apt 108."
                 ],
             "city": "São Paulo.",
             "state": "SP",
-            "postal": "01031-001",
+            "postal": "04086-901",
             "country": "Brasil"
         },
         "contacts": [
-            "55 (11)99238-3612",
-            "55 (11)3227-3656",
-            "mohamed.benrhaiem@esprit.tn",
-            "mohamed.rhaiem@gmail.com"
+            "mohamed.rhaiem@gmail.com",
+            "mohamed.benrhaiem@esprit.tn"
         ]
     },
 
-    "presentation": "I am a programmer with a wide breadth of experience in server, network, and database administration. I look forward to learning and working with new technology to help customers to meet and exceed their needs.",
+    "presentation": "I'm a full stack programmer with a wide breadth of experience in front(mobile/web)/back end, server, network, and database administration. I look forward to learning and working with new technology to help customers to meet and exceed their needs.",
     "about": [
        {
-          "summary":"A versatile and professional software newly graduate with a commitment to many experience of developing innovative and creative software solutions during the education cycle."},
+          "summary":"A versatile and professional software with a commitment to many experience of developing innovative and creative software solutions during the carriere cycle."},
           {
           "summary":"An excellent problem-solver, able to quickly grasp complex systems and identify opportunities for improvements and resolution of critical issues."},
           {
@@ -41,8 +39,10 @@
                     "skill": "JAVA",
                     "subskills": [
                         "J2EE",
+                        "Android",
                         "JSE",
                         "Spring framework",
+                        "Spring boot",
                         "Spring security",
                         "JSF/EJB/JPA",
                         "GWT",
@@ -52,10 +52,11 @@
                 {
                     "skill": "HTML5, Javascript, & CSS3",
                     "subskills": [
+                        "AngularJS 1/2",
+                        "Ionic 1/2",
+                        "Cordova",
                         "jQuery",
                         "jQuery UI",
-                        "AngularJS",
-                        "Titanium/Ionic",
                         "Bootstrap"
                     ]
                 },
@@ -75,7 +76,33 @@
                     ]
                 }
             ]
-        },
+        }
+
+,
+        {
+            "domain": "Services",
+            "skills": [
+                {
+                    "skill": "Push notification"
+                },
+                {
+                    "skill": "Geolocalization"
+                }
+                ,
+                {
+                    "skill": "Face recognition"
+                },
+                {
+                    "skill": "OAuth 2.0"
+                },
+                {
+                    "skill": "SMS"
+                }
+            ]
+        }
+
+
+        ,
         {
             "domain": "Version Control",
             "skills": [
@@ -127,6 +154,9 @@
                 {
                     "skill": "Google app engine"
                 },
+                 {
+                    "skill": "Firebase"
+                },
                 {
                     "skill": "CloudFoundry"
                 },
@@ -144,6 +174,8 @@
                 {
                     "skill": "Server",
                     "subskills": [
+                        "Mobile First 7.1",
+                        "WebSphere 8.0.0",
                         "Apache",
                         "Tomcat",
                         "JBoss",
@@ -154,7 +186,8 @@
                     "skill": "Package manager",
                     "subskills": [
                         "maven",
-                        "bower"
+                        "bower",
+                        "npm"
                     ]
                 },
                 {
@@ -222,20 +255,22 @@
        
             "Linkedin": "https://www.linkedin.com/pub/mohamed-ben-rhaiem/51/121/670/"
         },
-
     "work_experiences": [
     {
             "company": "Murah Technologies",
-            "position": "Software Developer",
+            "position": "Full Stack Programmer",
             "location": "Sao Paulo, Brazil",
             "dates": {
                 "start": "01/15",
                 "end": "actual"
             },
-            "description": "make support for an Audit platform for company clients. ",
+            "description": "Resolve client bugs and issues, Design and implementation of client required needs for an audit/banking system, building mobile apps for audit/banking use.",
             "accomplishments": [
-                "resolve issues and conflicts in the client side of the platform . ",
-                "add statistics features to the program of work involved in the auditor system . "
+                "Contributed as an agile team member towards defining and achieving iteration goals .",
+                "Responsible for planning, modeling, developing and architecting a complete environment for Open a BankAccount Online process ,in this environment we found the front end main customer (hybrid mobile app), about the backend we have three layers, the mobile first runtime, the api rest services and the data processing core .",
+                "Responsible for planning, developing a front-end web application for core banking business processes .",
+                "Resolve issues and conflicts in the client side of the platform . ",
+                "Responsible for developing a mobile app for intern banking employees management ."
             ]
         },
         {
@@ -255,13 +290,13 @@
         },
         {
             "company": "ESPRIT group",
-            "position": "Software Developer /Software Architect/DBA",
+            "position": "Software Developer /Software Architect",
             "location": "Chargia, Tunisia",
             "dates": {
                 "start": "03/13",
                 "end": "05/13"
             },
-            "description": "Designed and implemented of banking solution based on a multi-platform architecture programmed in JAVA, JEE 6 EJB/JSF and Windows phone.",
+            "description": "Design and implementation of banking solution based on a multi-platform architecture programmed in JAVA, JEE 6 EJB/JSF and Windows phone.",
             "accomplishments": [
                 "Building a Bank system for solving financial Applications of a customer in banking environment",
                 "nurture the Needs of a banking user by proving various ways to perform banking tasks with a high security system."
@@ -315,7 +350,7 @@
         },
          {
             "language": "Portuguese",
-            "level": "basic"
+            "level": "good"
         },
          {
             "language": "Arab",

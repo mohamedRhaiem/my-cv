@@ -24,7 +24,7 @@ handlers:
   static_dir: Webdir/app/js
  
 - url: /bower_components
-  static_dir: Webdir/app/bower_components
+  static_dir: Webdir/bower_components
  
  
 - url: /.*

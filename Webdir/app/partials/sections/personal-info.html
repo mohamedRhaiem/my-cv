@@ -1,27 +1,29 @@
 <div class="panel panel-default page-presentation">
 	<div class="panel-body">
 		<div class="rsvp col-xs-2 col-sm-2">
-			<i>{{$storage.like}}</i> <i>{{$storage.unlike}}</i>
-			<div class="hidden-xs">
-				<span class="fa fa-thumbs-up fa-2x"
-					ng-click="$storage.like = $storage.like + 1"></span> <span
-					class="fa fa-thumbs-down fa-2x"
-					ng-click="$storage.unlike = $storage.unlike - 1"></span>
-			</div>
+			<!-- <i>{{$storage.like}}</i> <i>{{$storage.unlike}}</i> -->
+			<!-- start -->
+    <quiz/>
+
+			<!-- end -->
+			
 		</div>
 		<div class="info col-xs-8 col-sm-7">
 			My Resume
 			<div class="hidden-xs">
 				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#profile"
+					<li role="presentation" class="active"><a ng-init="show = true" ng-click="show = true"
 						aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-					<li role="presentation"><a href="#location"
+					<li role="presentation"><a ng-click="show = false"
 						aria-controls="location" role="tab" data-toggle="tab">Contact</a></li>
 
 				</ul>
 				<!-- Tab panes -->
 				<div class="tab-content">
-					<div role="tabpanel" class="tab-pane " id="location">
+				<div role="tabpanel" class="tab-pane active" ng-if="show">
+						{{resume.presentation}}
+					</div>
+					<div role="tabpanel" class="tab-pane " ng-if="!show">
 						<div class="address">
 							<span class="address-line"
 								ng-repeat="address in resume.personal.address.address">
@@ -35,11 +37,7 @@
 							{{contact}}
 						</span>
 					</div>
-					<div role="tabpanel" class="tab-pane active" id="profile">
-						{{resume.presentation}}</div>
-
-
-
+					
 				</div>
 			</div>
 		</div>
@@ -50,12 +48,7 @@
 			<div class="profile hidden-xs">
 				<strong>{{resume.personal.name}}</strong>
 				<div class="hidden-sm"> 
-               
-                <div id="fb" fb-like ></div>
-      
-           <hr>
-         
-                <div id="gp" google-plus></div>
+           
      </div>
 				<div class="links hidden-sm">
 					<a ng-href="{{resume.social_links.GitHub}}" target="_blank"><i

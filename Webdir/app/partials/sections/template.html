@@ -1,0 +1,36 @@
+<div class="quiz-area" ng-show="inProgress">
+	<div ng-show="!quizOver">
+		<p id="question">{{question}}</p>
+		<div ng-show="!answerMode">
+			<p ng-show="correctAns" class="success">That is correct!</p>
+			<p ng-show="!correctAns" class="error">Sorry, that is an incorrect answer.</p>
+		</div>
+	</div>
+
+	<div ng-show="quizOver">
+		<h4 ng-if="id!==score">Unfortunately you failed!</h4>
+		<h4 ng-if="id===score">Well done,I'm wating for your call</h4>
+		<p  ng-if="id===score">+005511950255658</p>
+		<button ng-click="reset()" ng-if="id!==score" class="btn btn-primary">Play again</button>
+	</div>
+
+	<div id="score" class="score">
+	<p>Score: {{score}}/7</p>
+		<button ng-click="nextQuestion()" class="next-question btn btn-primary" ng-show="!answerMode && !quizOver">Next</button>
+	</div>
+
+</div>
+
+
+<div class="intro-quiz" ng-show="!inProgress">
+	<p>To get my phone number you had to play with me :)</p>
+	<button id="startQuiz" type="button"  ng-click="start()" class="btn btn-primary">Start the Quiz</button>
+</div>
+
+
+<div class="hidden-xs submit-answer" ng-if="inProgress && answerMode">
+				<span class="fa fa-thumbs-up fa-2x"
+					ng-click="checkAnswer(true)"></span> 
+				<span class="fa fa-thumbs-down fa-2x"
+					ng-click="checkAnswer(false)"></span>
+</div>

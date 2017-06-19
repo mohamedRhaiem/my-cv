@@ -137,15 +137,7 @@ h4, h5 {
 	-webkit-font-smoothing: antialiased;
 }
 
-/* check  */
-/*background: #BBDEFB;
-  border: 1px solid #448AFF;
-  padding:0;
-  margin:0;
-  height:86px; */
-/* height: 158px;
-    position: fixed;
-    width: 100%; */
+
 .page-presentation .panel-body {
 	background: none repeat scroll 0 0 #bbdefb;
 	border: 2px solid #448aff;
@@ -171,13 +163,7 @@ h4, h5 {
 	height: 100%;
 }
 
-.page-presentation .rsvp>div {
-	font-size: 12px;
-	position: absolute;
-	bottom: 0;
-	background: #42A5F5;
-	width: 100%;
-}
+
 
 .page-presentation .rsvp i {
 	font-size: 2em;
@@ -206,6 +192,56 @@ h4, h5 {
 .page-presentation .rsvp span:hover {
 	color: #1565C0;
 }
+.page-presentation .rsvp .quiz-area {
+	    font-size: 12px;
+    position: absolute;
+    width: 100%;
+    text-align: left;
+       padding: 5px 0 0 5px;
+}
+
+.page-presentation .rsvp .quiz-area .error{
+	    color: red;
+	    font-weight: bold;
+}
+
+.page-presentation .rsvp .quiz-area .success {
+	     color: green;
+	     font-weight: bold;
+}
+
+.page-presentation .rsvp .quiz-area .score{  
+      margin-top: 13%;
+}
+
+.page-presentation .rsvp .quiz-area .btn{  
+	  background-color: #448AFF;
+    border-color: white;
+   
+    float: right;
+    margin: 0% 2% 0% 0%;
+}
+
+.page-presentation .rsvp .submit-answer {
+	font-size: 12px;
+	position: absolute;
+	bottom: 0;
+	background: #42A5F5;
+	width: 100%;
+}
+
+.page-presentation .rsvp .intro-quiz{
+	font-size: 15px;
+    width: 100%;
+    padding: 10% 0 0 3%;
+}
+
+
+.page-presentation .rsvp .intro-quiz .btn {
+            background-color: #448AFF;
+    border-color: white;
+}
+
 
 .page-presentation .info {
 	font-size: 28px;
@@ -282,12 +318,8 @@ h4, h5 {
 		left: 10%;
 	}
 	.page-presentation .profile strong {
-		display: block;
-		color: white;
-		font: 20px bold 'Fredoka One', serif;
-		-webkit-text-stroke-width: .6px;
-		-webkit-text-stroke-color: #448AFF;
-		margin-bottom: 5px;
+	    color: white;
+    font-size: large;
 	}
 	.page-presentation .author .profile i {
 		color: #448AFF;
@@ -296,6 +328,7 @@ h4, h5 {
 	.page-presentation .profile .links {
 		position: absolute;
 		bottom: 0;
+		    left: inherit;
 	}
 	.page-presentation .profile article {
 		padding: 0 41px 0 0;
@@ -305,14 +338,12 @@ h4, h5 {
 	}
 	.page-presentation .author .profile-image {
 		position: absolute;
-		background: white;
-		padding: 3px;
-		width: 30%;
-		border-radius: 50%;
-		border: 1px solid #CCC;
-		box-sizing: content-box;
-		z-index: 1;
-		top: 13px;
+    padding: 0px;
+    width: 30%;
+    border-radius: 50%;
+    border: 3px solid #ece2e2;
+    box-sizing: content-box;
+    z-index: 1;
 	}
 	.page-presentation .author img {
 		width: 100%;
@@ -342,4 +373,21 @@ h4, h5 {
 
 /* Large devices (large desktops, 1200px and up) */
 @media ( min-width : 1200px) {
+}
+
+.tab-content>.tab-pane {
+       display: table-row !important;
+}
+
+@keyframes shake {
+  0% {transform: translateX(0);}
+  12.5% {transform: translateX(-6px) rotateY(-5deg)}
+  37.5% {transform: translateX(5px) rotateY(4deg)}
+  62.5% {transform: translateX(-3px) rotateY(-2deg)}
+  87.5% {transform: translateX(2px) rotateY(1deg)}
+  100% {transform: translateX(0)}
+}
+
+.shake {
+  animation: shake 400ms ease-in-out;
 }

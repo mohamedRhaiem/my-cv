@@ -4,6 +4,8 @@ var resumeApp = angular.module('resumeApp', [
     'ngRoute',
     'ngStorage',
     'resumeControllers',
+    'resumeDirectives',
+    'resumeFactories',
     'angulike'
 ]);
 
