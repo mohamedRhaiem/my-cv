@@ -2,11 +2,9 @@ console.log('Loading app.js');
 
 var resumeApp = angular.module('resumeApp', [
     'ngRoute',
-    'ngStorage',
     'resumeControllers',
     'resumeDirectives',
     'resumeFactories',
-    'angulike'
 ]);
 
 resumeApp.run(['$rootScope', function($rootScope) {
