@@ -1,371 +1,378 @@
 {
-    "general": {
-        "url": "http://glass-setting-831.appspot.com/#/default",
-        "url_text": "http://glass-setting-831.appspot.com/#/default",
-        "source_url": "https://github.com/mohamedRhaiem/my-cv",
-        "source_url_text": "GitHub"
+  "general": {
+    "url": "https://my-resume-389001.uc.r.appspot.com/",
+    "url_text": "https://my-resume-389001.uc.r.appspot.com/",
+    "source_url": "https://github.com/mohamedRhaiem/my-cv",
+    "source_url_text": "GitHub"
+  },
+  "personal": {
+    "name": "Mohamed Ben Rhaiem",
+    "address": {
+      "address": ["Servidão Águia dourada n91, campeche"],
+      "city": "Florianópolis",
+      "state": "SC",
+      "postal": "88063038",
+      "country": "Brasil"
     },
-    "personal": {
-        "name": "Ben Rhaiem Mohamed",
-        "address": {
-            "address": [
-                "Alameda dos aicas,1028,apt 108."
-                ],
-            "city": "São Paulo.",
-            "state": "SP",
-            "postal": "04086-901",
-            "country": "Brasil"
-        },
-        "contacts": [
-            "mohamed.rhaiem@gmail.com",
-            "mohamed.benrhaiem@esprit.tn"
-        ]
-    },
+    "contacts": ["mohamed.rhaiem@gmail.com"]
+  },
 
-    "presentation": "I'm a full stack programmer with a wide breadth of experience in front(mobile/web)/back end, server, network, and database administration. I look forward to learning and working with new technology to help customers to meet and exceed their needs.",
-    "about": [
-       {
-          "summary":"A versatile and professional software with a commitment to many experience of developing innovative and creative software solutions during the carriere cycle."},
-          {
-          "summary":"An excellent problem-solver, able to quickly grasp complex systems and identify opportunities for improvements and resolution of critical issues."},
-          {
-          "summary":"A dynamic member, skilled in software methodologies development, enlisting the support of all team members in aligning with timeline and goals project."}
-    ],
-    "skills": [
-        {
-            "domain": "Programming Languages",
-            "skills": [
-                {
-                    "skill": "JAVA",
-                    "subskills": [
-                        "J2EE",
-                        "Android",
-                        "JSE",
-                        "Spring framework",
-                        "Spring boot",
-                        "Spring security",
-                        "JSF/EJB/JPA",
-                        "GWT",
-                        "REST and SOAP Web Services"
-                    ]
-                },
-                {
-                    "skill": "HTML5, Javascript, & CSS3",
-                    "subskills": [
-                        "AngularJS 1/2",
-                        "Ionic 1/2",
-                        "Cordova",
-                        "jQuery",
-                        "jQuery UI",
-                        "Bootstrap"
-                    ]
-                },
-                {
-                    "skill": "Python",
-                     "subskills": [
-                        "Django",
-                        "GO",
-                        "Django Rest Framework"
-                    ]
-                },
-                 {
-                    "skill": "PHP",
-                     "subskills": [
-                        "Wordpress",
-                        "codeigniter"
-                    ]
-                }
-            ]
-        }
-
-,
-        {
-            "domain": "Services",
-            "skills": [
-                {
-                    "skill": "Push notification"
-                },
-                {
-                    "skill": "Geolocalization"
-                }
-                ,
-                {
-                    "skill": "Face recognition"
-                },
-                {
-                    "skill": "OAuth 2.0"
-                },
-                {
-                    "skill": "SMS"
-                }
-            ]
-        }
-
-
-        ,
-        {
-            "domain": "Version Control",
-            "skills": [
-                {
-                    "skill": "Git"
-                },
-                {
-                    "skill": "SVN"
-                }
-            ]
-        },
-        {
-            "domain": "Databases",
-            "skills": [
-                {
-                    "skill": "Oracle"
-                },
-                {
-                    "skill": "MongoDB"
-                },
-                {
-                    "skill": "PostgreSQL"
-                },
-                {
-                    "skill": "MySQL"
-                },
-                {
-                    "skill": "SQL Server"
-                }
-            ]
-        },
-        {
-            "domain": "Linux Distributions",
-            "skills": [
-                {
-                    "skill": "Ubuntu"
-                },
-                {
-                    "skill": "Debian"
-                },
-                {
-                    "skill": "CentOS"
-                }
-            ]
-        },
-        {
-            "domain": "Cloud Services & Virtualization",
-            "skills": [
-                {
-                    "skill": "Google app engine"
-                },
-                 {
-                    "skill": "Firebase"
-                },
-                {
-                    "skill": "CloudFoundry"
-                },
-                {
-                    "skill": "VMWare"
-                },
-                {
-                    "skill": "VirtualBox"
-                }
-            ]
-        },
-        {
-            "domain": "Other Technologies",
-            "skills": [
-                {
-                    "skill": "Server",
-                    "subskills": [
-                        "Mobile First 7.1",
-                        "WebSphere 8.0.0",
-                        "Apache",
-                        "Tomcat",
-                        "JBoss",
-                        "Lamp"
-                    ]
-                },
-                {
-                    "skill": "Package manager",
-                    "subskills": [
-                        "maven",
-                        "bower",
-                        "npm"
-                    ]
-                },
-                {
-                    "skill": "Email Servers",
-                    "subskills": [
-                        "Postfix",
-                        "DoveCot"
-                    ]
-                },
-                {
-                    "skill": "Data type",
-                    "subskills": [
-                        "JSON",
-                        "XML"
-                    ]
-                },
-                {
-                    "skill": "DNS",
-                    "subskills": [
-                        "Bind9"
-                    ]
-                },
-                {
-                    "skill": "Nagios"
-                },
-                {
-                    "skill": "Samba"
-                },
-                {
-                    "skill": "OpenSSH"
-                },
-                {
-                    "skill": "OpenVPN"
-                },
-                {
-                    "skill": "Ossim"
-                },
-                {
-                    "skill": "wget"
-                },
-                {
-                    "skill": "Modeling languages",
-                    "subskills": [
-                        "UML"
-                    ]
-                },
-                 {
-                    "skill": "Work methodology",
-                    "subskills": [
-                        "SCRUM"
-                    ]
-                }
-                
-            ]
-        }
-    ],
-
-    "social_links": 
-        {
-            "GitHub": "https://github.com/mohamedRhaiem/",
-      
-            "Google": "https://plus.google.com/+BenRhaiemMohamed/",
-       
-            "Facebook": "https://www.facebook.com/Ben.rhim.med/",
-       
-            "Linkedin": "https://www.linkedin.com/pub/mohamed-ben-rhaiem/51/121/670/"
-        },
-    "work_experiences": [
+  "presentation": "About 9 years of experience in software development and computer programming for different business contexts such as finance, audit, education, and advertising, usually open to new opportunities and looking to join a dynamic and innovative team to use my expertise in designing and developing software solutions to help the company to achieve its goals.",
+  "about": [
     {
-            "company": "Murah Technologies",
-            "position": "Full Stack Programmer",
-            "location": "Sao Paulo, Brazil",
-            "dates": {
-                "start": "01/15",
-                "end": "actual"
-            },
-            "description": "Resolve client bugs and issues, Design and implementation of client required needs for an audit/banking system, building mobile apps for audit/banking use.",
-            "accomplishments": [
-                "Contributed as an agile team member towards defining and achieving iteration goals .",
-                "Responsible for planning, modeling, developing and architecting a complete environment for Open a BankAccount Online process ,in this environment we found the front end main customer (hybrid mobile app), about the backend we have three layers, the mobile first runtime, the api rest services and the data processing core .",
-                "Responsible for planning, developing a front-end web application for core banking business processes .",
-                "Resolve issues and conflicts in the client side of the platform . ",
-                "Responsible for developing a mobile app for intern banking employees management ."
-            ]
+      "summary": "A high qualified full stack engineer with a wide breadth of experience with various programming languages to develop high-quality software solutions, able to quickly grasp complex systems and identify opportunities for improvements and resolution of critical issues, also skilled in software methodologies development, enlisting the support of all team members in aligning with timeline and goals project."
+    }
+  ],
+  "skills": [
+    {
+      "domain": "Programming Languages",
+      "skills": [
+        {
+          "skill": "JAVA",
+          "subskills": [
+            "Spring Framework",
+            "Spring Boot",
+            "JSF/EJB",
+            "Event, REST and SOAP Web Services"
+          ]
         },
         {
-            "company": "ÉNOIS Inteligência Jovem",
-            "position": "Software Developer/Web Integrator",
-            "location": "Sao Paulo, Brazil",
-            "dates": {
-                "start": "02/14",
-                "end": "08/14"
-            },
-            "description": "Customization of an already open source E-learning platform programmed in Django and AngularJS for journalism teaching use.",
-            "accomplishments": [
-                "Cutomise an already Django App to reply to journalism concept,in the look and the behaviour ",
-                "Building a shared environment for Students to share their work and to be able to exchange knowledge’s and ideas between all the students. ",
-                "implementation of a Django app that make a dynamic update for our data displayed for more flexibility in the template design.   "
-            ]
+          "skill": "Javascript,TypeScript, HTML & CSS",
+          "subskills": [
+            "ReactJS",
+            "Ant design",
+            "UmiJs",
+            "Dva-saga",
+            "Redux",
+            "Node(nestJs)",
+            "TypeOrm",
+            "AngularJS",
+            "Angular 2 3 4",
+            "Angular material",
+            "Bootstrap",
+            "Rxjs",
+            "Ionic 1/2",
+            "Cordova",
+            "jQuery",
+            "WebPack",
+            "Rollup",
+            "HTML5",
+            "scss"
+          ]
         },
         {
-            "company": "ESPRIT group",
-            "position": "Software Developer /Software Architect",
-            "location": "Chargia, Tunisia",
-            "dates": {
-                "start": "03/13",
-                "end": "05/13"
-            },
-            "description": "Design and implementation of banking solution based on a multi-platform architecture programmed in JAVA, JEE 6 EJB/JSF and Windows phone.",
-            "accomplishments": [
-                "Building a Bank system for solving financial Applications of a customer in banking environment",
-                "nurture the Needs of a banking user by proving various ways to perform banking tasks with a high security system."
-            ]
-        },
-        {
-            "company": "Focus software outsourcing services",
-            "position": "Software Developer",
-            "location": "Ariana, Tunisia",
-            "dates": {
-                "start": "07/12",
-                "end"  : "09/12"
-            },
-            "description": "Development of an Application of human resource management (FHRM), it’s a web application developed with spring framework and mongodb as a database.",
-            "accomplishments": [
-                "provide a solution to human resources management.",
-                "ensure a high level of data availability with fast response and high security."
-            ]
+          "skill": "Python",
+          "subskills": ["Django"]
         }
-    ],
+      ]
+    },
+    {
+      "skill": "Broker",
+      "subskills": [
+        "RabbitMq"
+      ]
+    },
+    {
+      "domain": "CI/CD tool and Virtualization",
+      "skills": [
+        {
+          "skill": "Git"
+        },
+        {
+          "skill": "Gitab"
+        },
+        {
+          "skill": "Jenkins"
+        },
+        {
+          "skill": "Docker/Docker Compose"
+        },
+        {
+          "skill": "SonarQube"
+        }
+      ]
+    },
+    {
+      "domain": "Test tool",
+      "skills": [
+        {
+          "skill": "Jest"
+        },
+        {
+          "skill": "Junit"
+        },
+        {
+          "skill": "JaCoCo"
+        },
+        {
+          "skill": "Newman"
+        },
+        {
+          "skill": "Puppeeter"
+        }
+      ]
+    },
+    {
+      "domain": "Databases",
+      "skills": [
+        {
+          "skill": "MySQL"
+        },
+        {
+          "skill": "Oracle"
+        },
+        {
+          "skill": "MongoDB"
+        },
+        {
+          "skill": "PostgreSQL"
+        },
+        {
+          "skill": "Snowflake"
+        }
+      ]
+    },
+    {
+      "domain": "Services",
+      "skills": [
+        {
+          "skill": "Push notification"
+        },
+        {
+          "skill": "Geolocalization"
+        },
+        {
+          "skill": "OCR"
+        },
+        {
+          "skill": "OAuth 2.0"
+        },
+        {
+          "skill": "SMS"
+        }
+      ]
+    },
+    {
+      "domain": "Os Distributions",
+      "skills": [
+        {
+          "skill": "Ubuntu"
+        },
+        {
+          "skill": "OS X"
+        }
+      ]
+    },
+    {
+      "domain": "Cloud Services",
+      "skills": [
+        {
+          "skill": "AWS lamdda, RDS, S3, EC2, Vpc network, Api gateway"
+        },
+        {
+          "skill": "Google app engine, Apigee, Build, Strorage, Vpc network, Run"
+        },
+        {
+          "skill": "CloudFoundry"
+        }
+      ]
+    },
+    {
+      "domain": "Other Technologies",
+      "skills": [
+        {
+          "skill": "Server",
+          "subskills": [
+            "Mobile First 7.1",
+            "WebSphere 8.0.0",
+            "Apache",
+            "Tomcat",
+            "JBoss",
+            "Lamp",
+            "Rundeck"
+          ]
+        },
+        {
+          "skill": "Package manager",
+          "subskills": ["maven", "npm", "yarn", "bower"]
+        },
+        {
+          "skill": "Email Servers",
+          "subskills": ["Postfix", "DoveCot"]
+        },
+        {
+          "skill": "DNS",
+          "subskills": ["Bind9"]
+        },
+        {
+          "skill": "Nagios"
+        },
+        {
+          "skill": "OpenSSH"
+        },
+        {
+          "skill": "OpenVPN"
+        },
+        {
+          "skill": "Modeling languages",
+          "subskills": ["UML"]
+        },
+        {
+          "skill": "Work methodology",
+          "subskills": ["SCRUM"]
+        },
+        {
+          "skill": "task management",
+          "subskills": ["Jira","Trello"]
+        }
+      ]
+    }
+  ],
 
-    "education": [
-        {
-            "school": "Private Higher School of Engineering and Technology (ESPRIT)",
-            "degree": "National diploma in Software Computer Science Engineering (DNI)",
-            "dates": {
-                "start": "2011",
-                "end"  : "2014"
-            }
-            
-        },
-          {
-            "school": "Higher Faculty of Sciences of Tunis (FST)",
-            "degree": "National Bachelor in Telecommunication and Computer (BTC)",
-            "dates": {
-                "start": "2007",
-                "end"  : "2011"
-            }
-           
-        }
-    ],
+  "social_links": {
+    "GitHub": "https://github.com/mohamedRhaiem/",
+    "Linkedin": "https://www.linkedin.com/in/mohamed-ben-rhaiem-67012151/"
+  },
+  "work_experiences": [
+    {
+      "company": "InAllMedia → Indeed",
+      "position": "Senior Software Engineer",
+      "location": "Austin, Texas",
+      "dates": {
+        "start": "10/21",
+        "end": "actual"
+      },
+      "description": "Working as a contractor, responsible for translating client demand to job seeker system features.",
+      "accomplishments": [
+        "Deliver sprint tasks for job seeker analytic app.",
+        "Support and resolve system bugs for a search resume app.",
+        "Provide reusable services/components for backend/frontend apps for shared use."
+      ]
+    },
+    {
+      "company": "HartB → Globo",
+      "position": "Software System Architect",
+      "location": "Sao Paulo, Brazil",
+      "dates": {
+        "start": "08/20",
+        "end": "09/21"
+      },
+      "description": "Leading an IT team with the goal to manage and migrate an intern advertising distribution central system, responsible for setting up standars and procedures of development, also involved in another team as system architect with the goal to create a b2b bonus advertising system.",
+      "accomplishments": [
+        "Designing user interface (UI) layouts for software applications.",
+        "Define aspects of development from appropriate technology and workflow to coding standards",
+        "Design and implement CI/CD pipeline templates for different nature projects for smooth delivery and better quality results.",
+        "Provide reusable services/components (front-end components lib, export service, notification service, frontend project starter, backend project starter)."
+      ]
+    },
+    {
+      "company": "Meritt",
+      "position": "Senior Software Engineer",
+      "location": "Sao Paulo, Brazil",
+      "dates": {
+        "start": "10/19",
+        "end": "07/20"
+      },
+      "description": "As a team member, I was responsible to deliver client features for a digital education result platform(logistics and devolution context)",
+      "accomplishments": [
+        "Developing technical product specifications with attention to system integration and feasibility",
+        "Weekly iteration in the development cycle regarding the customer needs."
+      ]
+    },
+    {
+      "company": "CI&T",
+      "position": "Senior Software Engineer",
+      "location": "Sao Paulo, Brazil",
+      "dates": {
+        "start": "11/17",
+        "end": "09/19"
+      },
+      "description": "Working as an intern software engineer responsible for delivering digital bank features(prepaid card issuance, money transfer, bill payment).",
+      "accomplishments": [
+        "Design and implementation of exadata services for credit and debit card operators.",
+        "Definition and implementation of the standards of the micro front-end approach.",
+        "Creation of development tools and implementation of best programming practices."
+      ]
+    },
+    {
+      "company": "Murah Technologies",
+      "position": "Full Stack Developper",
+      "location": "Sao Paulo, Brazil",
+      "dates": {
+        "start": "01/15",
+        "end": "10/17"
+      },
+      "description": "Resolve client bugs and issues, Design and implementation of client required needs for an audit/banking system, building mobile apps for audit/banking use.",
+      "accomplishments": [
+        "Support and resolve system and client’s issues for an Audit platform programmed in JAVA 6, spring 3 and JSF 1.2 using multi database providers.",
+        "Design and implementation of hybrid mobile apps for banking use, users can hire bank services as current account, credit card... , This app has many features such as send notification, SMS, Geolocation, Facial and Document recognition.",
+        "Design and implementation of hybrid mobile app with Ionic framework consuming Rest web services implemented with Jersey restful, framework from the server side and Restangular from the client side.",
+        "Support and migration of JSF 1.2 project from Jboss 5 to Jboss as 7",
+        "Design and implementation of management and digitalization documents platform for banking use developed with AngularJS 1.5, Angular Material from the client side and Spring 3 and jersey API from the server side."
+      ]
+    },
+    {
+      "company": "ÉNOIS Inteligência Jovem",
+      "position": "Junior Software Engineer",
+      "location": "Sao Paulo, Brazil",
+      "dates": {
+        "start": "02/14",
+        "end": "08/14"
+      },
+      "description": "Customization of an already open source E-learning platform for journalism context.",
+      "accomplishments": [
+        "Cutomise an already Django App to reply to journalism concept,in the look and the behaviour ",
+        "Building a shared environment for students to share their work and to be able to exchange knowledge’s and ideas between all the students. ",
+        "Design and implementation for web client app."
+      ]
+    }
+  ],
 
-    "languages": [
-        {
-            "language": "English",
-            "level": "good"
-        },
-         {
-            "language": "French",
-            "level": "good"
-        },
-         {
-            "language": "Portuguese",
-            "level": "good"
-        },
-         {
-            "language": "Arab",
-            "level": "mother tongue"
-        }
-    ],
+  "education": [
+    {
+      "school": "Private Higher School of Engineering and Technology (ESPRIT)",
+      "degree": "National diploma in Software Computer Science Engineering (DNI)",
+      "dates": {
+        "start": "2011",
+        "end": "2014"
+      }
+    },
+    {
+      "school": "Higher Faculty of Sciences of Tunis (FST)",
+      "degree": "National Bachelor in Telecommunication and Computer (BTC)",
+      "dates": {
+        "start": "2007",
+        "end": "2011"
+      }
+    }
+  ],
 
-    "organizations": [
-        {
-            "position": "Trainee",
-            "organization": "Edge talents",
-            "dates": {
-                "start": "02/2014",
-                "end"  : "08/2014"
-            }
-        }
-    ]
+  "languages": [
+    {
+      "language": "English",
+      "level": "good"
+    },
+    {
+      "language": "French",
+      "level": "good"
+    },
+    {
+      "language": "Portuguese",
+      "level": "good"
+    },
+    {
+      "language": "Arab",
+      "level": "mother tongue"
+    }
+  ],
+  "communities": [
+    {
+      "organization": "Mural",
+      "link": "https://www.agenciamural.org.br"
+    },
+    {
+      "organization": "Aiesec",
+      "link": "https://aiesec.org"
+    }
+  ]
 }

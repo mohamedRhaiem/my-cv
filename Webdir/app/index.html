@@ -1,41 +1,39 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="resumeApp">
-<head ng-controller="headerCtrl">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head ng-controller="headerCtrl">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title ng-bind-template="Résumé/CV - {{name}}">CV- Mohamed Ben Rahiem...</title>
+    <title ng-bind-template="Résumé/CV - {{name}}">
+      CV- Mohamed Ben Rahiem...
+    </title>
 
     <!-- Default styles from Bootstrap -->
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="all">
-    <!-- fonawesome and open sans family-font -->
-    <link href="bower_components/components-font-awesome/css/font-awesome.css" rel="stylesheet" media="all">
-    <link href="bower_components/open-sans-fontface/open-sans.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+    <!-- fonawesome and open sans family-font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- App-specific style customizations -->
-    <link href="css/style.css" rel="stylesheet" media="all">
+    <link href="css/style.css" rel="stylesheet" media="all" />
 
     <!-- jQuery and Bootstrap -->
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <!-- Angular JS, main and components -->
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
-    <script src="bower_components/angular-animate/angular-animate.js"></script>
-    <script src="bower_components/ngstorage/ngStorage.js"></script>
-    <script src="bower_components/angulike/angulike.js"></script>
-
+    <!-- Latest compiled and minified CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular.min.js" integrity="sha512-fVCjT4t8Rpwq8H9CRtGl2KJGwJZXJJJ5vamhkpcT8UmW+Oe0ZNC2ACO8/virYei0FynS5nbliWfCPVV4NkBrJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-route.min.js" integrity="sha512-ve4JzvQvvcsJaljdHktYIMqAQpYNwP2eUfNvMN7jGL3DfdrUuQJZDaJG/Lv09VFXk2po0tUJK90I0xWmGARavg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular-animate.min.js" integrity="sha512-JPw2DEHnf41IZRHI+zAlvF2pN7Hn0xZ5Dbpd0WldMfeHZOjXNgcQ9QkSygcUUEGOgQ3y9IZDHCgoI2ZGxSMLJg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- App-specific javascript code -->
     <script src="js/app.js"></script>
     <script src="js/controllers.js"></script>
-     <script src="js/directives.js"></script>
-      <script src="js/factories.js"></script>
-</head>
-<body id="target">
-
-<div ng-view></div>
-</body>
+    <script src="js/directives.js"></script>
+    <script src="js/factories.js"></script>
+  </head>
+  <body id="target">
+    <div ng-view></div>
+  </body>
 </html>
