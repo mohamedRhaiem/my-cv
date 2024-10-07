@@ -14,8 +14,8 @@ handlers:
 - url: /css
   static_dir: Webdir/app/css
  
-- url: /images
-  static_dir: Webdir/app/images
+- url: /assets
+  static_dir: Webdir/app/assets
  
 - url: /js
   static_dir: Webdir/app/js

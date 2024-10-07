@@ -7,20 +7,21 @@
   },
   "personal": {
     "name": "Mohamed Ben Rhaiem",
+    "role": "Senior Full-Stack Engineer \n| Technical Leader & Software Architect",
     "address": {
-      "address": ["Servidão Águia dourada n91, campeche"],
-      "city": "Florianópolis",
-      "state": "SC",
-      "postal": "88063038",
-      "country": "Brasil"
+      "address": ["11 rue de la sarrazine"],
+      "city": "Paris",
+      "state": "Île-de-France",
+      "postal": "92220",
+      "country": "France"
     },
-    "contacts": ["mohamed.rhaiem@gmail.com"]
+    "contacts": ["email: mohamed.rhaiem@gmail.com", "whatsapp: 005511950255658"]
   },
 
-  "presentation": "About 9 years of experience in software development and computer programming for different business contexts such as finance, audit, education, and advertising, usually open to new opportunities and looking to join a dynamic and innovative team to use my expertise in designing and developing software solutions to help the company to achieve its goals.",
+  "presentation": "A highly skilled full-stack engineer with deep expertise across multiple programming languages and technologies, focused on developing high-quality, scalable software solutions, usually open to new opportunities and looking to join a dynamic and innovative team to use my expertise in designing and developing software solutions to help the company to achieve its goals.",
   "about": [
     {
-      "summary": "A high qualified full stack engineer with a wide breadth of experience with various programming languages to develop high-quality software solutions, able to quickly grasp complex systems and identify opportunities for improvements and resolution of critical issues, also skilled in software methodologies development, enlisting the support of all team members in aligning with timeline and goals project."
+      "summary": "Over the past 10 years, I have consistently demonstrated the ability to quickly grasp complex systems, identify critical issues, and drive improvements that enhance both performance and user experience.With a strong foundation in software methodologies and a collaborative leadership style, I excel in aligning teams with project goals and timelines. Since earning my Software Engineering degree in 2014, I have gained experience across various industries, including digital advertising,flight monitoring, e-learning, finance, job-seeking platforms, and audit systems. Over the last five years, I have taken on senior roles as a technical leader and software architect. However, my passion remains full-stack development, where I stay actively involved throughout the entire software development lifecycle—from discovery to deployment and maintenance.My core technical strengths include Java, Node.js, React, and Angular, and I bring an in-depth understanding of modern tech stacks to every project. I’m committed to delivering exceptional software solutions and fostering strong collaboration within teams."
     }
   ],
   "skills": [
@@ -32,6 +33,7 @@
           "subskills": [
             "Spring Framework",
             "Spring Boot",
+            "Apache Spark",
             "JSF/EJB",
             "Event, REST and SOAP Web Services"
           ]
@@ -39,13 +41,14 @@
         {
           "skill": "Javascript,TypeScript, HTML & CSS",
           "subskills": [
+            "Node(nestJs)",
+            "TypeOrm",
             "ReactJS",
             "Ant design",
+            "Material UI",
             "UmiJs",
             "Dva-saga",
             "Redux",
-            "Node(nestJs)",
-            "TypeOrm",
             "AngularJS",
             "Angular 2 3 4",
             "Angular material",
@@ -55,21 +58,19 @@
             "Cordova",
             "jQuery",
             "WebPack",
+            "WebPackModuleFederation",
             "Rollup",
             "HTML5",
             "scss"
           ]
-        },
-        {
-          "skill": "Python",
-          "subskills": ["Django"]
         }
       ]
     },
     {
       "skill": "Broker",
       "subskills": [
-        "RabbitMq"
+        "RabbitMq",
+        "kafka"
       ]
     },
     {
@@ -194,24 +195,7 @@
         },
         {
           "skill": "Package manager",
-          "subskills": ["maven", "npm", "yarn", "bower"]
-        },
-        {
-          "skill": "Email Servers",
-          "subskills": ["Postfix", "DoveCot"]
-        },
-        {
-          "skill": "DNS",
-          "subskills": ["Bind9"]
-        },
-        {
-          "skill": "Nagios"
-        },
-        {
-          "skill": "OpenSSH"
-        },
-        {
-          "skill": "OpenVPN"
+          "subskills": ["maven","gradle", "npm", "yarn", "bower","pnpm"]
         },
         {
           "skill": "Modeling languages",
@@ -235,18 +219,33 @@
   },
   "work_experiences": [
     {
+      "company": " GSW → Embraer",
+      "position": "Senior Software Engineer",
+      "location": "São Paulo, Brazil",
+      "dates": {
+        "start": "04/23",
+        "end": "actual"
+      },
+      "description": "As a contractor, led the delivery of analytics data to enhance insight into flight monitoring and improve operational decision-making.",
+      "accomplishments": [
+        "Data-Driven Insights: Developed a real-time system that analyzed flight data, providing critical insights and generating health alerts that improved flight safety and operational efficiency.",
+        "System Decomposition: Spearheaded the deconstruction of legacy monolith applications into microservices, optimizing system maintainability, and scalability, and reducing deployment time by 90%.",
+        "Performance Improvements: Optimized data pipelines using Kafka and Spark, reducing data processing latency by 50%, and allowing faster analytics and alert delivery."
+      ]
+    },
+    {
       "company": "InAllMedia → Indeed",
       "position": "Senior Software Engineer",
       "location": "Austin, Texas",
       "dates": {
         "start": "10/21",
-        "end": "actual"
+        "end": "03/23"
       },
-      "description": "Working as a contractor, responsible for translating client demand to job seeker system features.",
+      "description": "Contractor role focused on developing new features and improving the job seeker system for enhanced user experience and platform efficiency.",
       "accomplishments": [
-        "Deliver sprint tasks for job seeker analytic app.",
-        "Support and resolve system bugs for a search resume app.",
-        "Provide reusable services/components for backend/frontend apps for shared use."
+        "Feature Development: Delivered key sprint tasks, translating client requirements into robust features for the job seeker application.",
+        "Bug Resolution: Identified, diagnosed, and resolved critical issues in the resume search application, improving system reliability and reducing time response by 20%.",
+        "Component Reusability: Developed reusable services and components for both backend and frontend applications, streamlining development efforts and accelerating feature delivery by 99%."
       ]
     },
     {
@@ -257,12 +256,12 @@
         "start": "08/20",
         "end": "09/21"
       },
-      "description": "Leading an IT team with the goal to manage and migrate an intern advertising distribution central system, responsible for setting up standars and procedures of development, also involved in another team as system architect with the goal to create a b2b bonus advertising system.",
+      "description": "Led an IT team to migrate and modernize the internal advertising distribution system while also designing a B2B bonus advertising platform, focusing on improving scalability, performance, and development efficiency.",
       "accomplishments": [
-        "Designing user interface (UI) layouts for software applications.",
-        "Define aspects of development from appropriate technology and workflow to coding standards",
-        "Design and implement CI/CD pipeline templates for different nature projects for smooth delivery and better quality results.",
-        "Provide reusable services/components (front-end components lib, export service, notification service, frontend project starter, backend project starter)."
+        "System Migration and Modernization: Led the successful migration of the advertising distribution system to a more scalable architecture, improving system reliability and reducing response time by 50%.",
+        "Development Standards: Established and enforced coding standards, technology choices, and workflow processes that enhanced collaboration and improved code quality across multiple projects.",
+        "CI/CD Optimization: Designed and implemented CI/CD pipeline templates tailored to various project types, reducing deployment times by 45% and enhancing the quality of software releases.",
+        "Reusable Components: Developed reusable services and components, including a front-end component library and backend project starters, which increased development speed and reduced redundancy across projects."
       ]
     },
     {
@@ -273,10 +272,11 @@
         "start": "10/19",
         "end": "07/20"
       },
-      "description": "As a team member, I was responsible to deliver client features for a digital education result platform(logistics and devolution context)",
+      "description": "Contributed to the development of a digital education results platform, ensuring seamless integration of logistics and devolution functionalities.",
       "accomplishments": [
-        "Developing technical product specifications with attention to system integration and feasibility",
-        "Weekly iteration in the development cycle regarding the customer needs."
+        "Technical Leadership: Developed detailed technical product specifications with a strong focus on system integration and feasibility, ensuring smooth collaboration between teams and optimized platform performance.",
+        "Agile Development: Worked in an Agile environment with weekly iterations, adapting swiftly to client needs and delivering high-priority features on time, leading to improved client satisfaction and faster feedback loops.",
+        "Platform Optimization: Enhanced platform performance and scalability by refactoring backend services and implementing best practices, reducing response times by 50% and improving overall system stability."
       ]
     },
     {
@@ -287,11 +287,10 @@
         "start": "11/17",
         "end": "09/19"
       },
-      "description": "Working as an intern software engineer responsible for delivering digital bank features(prepaid card issuance, money transfer, bill payment).",
+      "description": "Contributed to the development and delivery of key digital banking features, focusing on prepaid card issuance and money transfer functionalities.",
       "accomplishments": [
-        "Design and implementation of exadata services for credit and debit card operators.",
-        "Definition and implementation of the standards of the micro front-end approach.",
-        "Creation of development tools and implementation of best programming practices."
+        "Micro Front-End Standards: Led the definition and adoption of micro front-end architecture standards, enhancing code reusability and enabling smoother integration across multiple banking features.",
+        "Feature Delivery: Delivered critical digital banking features that streamlined prepaid card issuance and money transfer processes, improving user experience and reducing operational overhead by 69%."
       ]
     },
     {
@@ -302,13 +301,11 @@
         "start": "01/15",
         "end": "10/17"
       },
-      "description": "Resolve client bugs and issues, Design and implementation of client required needs for an audit/banking system, building mobile apps for audit/banking use.",
+      "description": "Designed, developed, and maintained critical features for an audit and banking system, ensuring high-quality deliverables and enhanced system efficiency.",
       "accomplishments": [
-        "Support and resolve system and client’s issues for an Audit platform programmed in JAVA 6, spring 3 and JSF 1.2 using multi database providers.",
-        "Design and implementation of hybrid mobile apps for banking use, users can hire bank services as current account, credit card... , This app has many features such as send notification, SMS, Geolocation, Facial and Document recognition.",
-        "Design and implementation of hybrid mobile app with Ionic framework consuming Rest web services implemented with Jersey restful, framework from the server side and Restangular from the client side.",
-        "Support and migration of JSF 1.2 project from Jboss 5 to Jboss as 7",
-        "Design and implementation of management and digitalization documents platform for banking use developed with AngularJS 1.5, Angular Material from the client side and Spring 3 and jersey API from the server side."
+        "Bank Account Online System: Architected and developed the complete environment for the Bank Account Online process, improving system performance, scalability, and security, leading to an 80% increase in customer satisfaction and a 20% reduction in processing times.",
+        "Mobile Application Development: Led the development of a mobile app for public guaranty fund management, streamlining workflows and decreasing process time by 80%.",
+        "Client Issue Resolution: Efficiently resolved high-priority client bugs and system issues, reducing downtime and improving platform stability, which resulted in improved client retention and operational efficiency."
       ]
     },
     {
@@ -350,15 +347,15 @@
   "languages": [
     {
       "language": "English",
-      "level": "good"
+      "level": "Upper Intermidiate"
     },
     {
       "language": "French",
-      "level": "good"
+      "level": "intermediate"
     },
     {
       "language": "Portuguese",
-      "level": "good"
+      "level": "Advanced"
     },
     {
       "language": "Arab",

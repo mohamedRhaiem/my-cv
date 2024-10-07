@@ -316,12 +316,19 @@ h4, h5 {
 		top: -5px;
 		padding-left: 55px;
 		height: 100%;
-		left: 10%;
+		left: 20%;
 	}
 	.page-presentation .profile strong {
 	    color: white;
     font-size: large;
 	}
+
+	.page-presentation .role {
+		font-size: 10px;
+		font-weight: bold;
+		max-width: 220px;
+	}
+
 	.page-presentation .author .profile i {
 		color: #448AFF;
 		padding-left: 0;
@@ -340,7 +347,7 @@ h4, h5 {
 	.page-presentation .author .profile-image {
 		position: absolute;
     padding: 0px;
-    width: 30%;
+    width: 25%;
     border-radius: 50%;
     border: 3px solid #ece2e2;
     box-sizing: content-box;
@@ -368,7 +375,7 @@ h4, h5 {
 /* Medium devices (desktops, 992px and up) */
 @media ( min-width : 992px) {
 	.page-presentation .profile {
-		left: 17%;
+		left: 14%;
 	}
 }
 
