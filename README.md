@@ -1,9 +1,9 @@
-# my-cv
+# 🌈 MY-CV
 
-This project is a GO app that is deployed in google cloud,the idea is to create a sample resume with AngularJS and Bootsrap, initially was created for technical learning ... 
-Designed and tested in Firefox aurora and google Chrome. 
-
-# Demo
-The demo is available on https://my-resume-389001.uc.r.appspot.com/
+This project is builded on top of [AngularJs](https://angularjs.org/).
+It provide my resume as responsive component page, initially was created for technical learning, designed and tested in Firefox aurora and google Chrome, deployed on GCP. 
 
 
+
+## 🚀 Access Demo
+[GCP URL](https://my-resume-389001.uc.r.appspot.com/)
